@@ -12,6 +12,10 @@
             "type": "local",
             "path": "../wonderpush-cordova-sdk"
         },
+        "source (for production)": {
+            "type": "registry",
+            "id": "wonderpush-cordova-sdk"
+        },
         "is_top_level": true,
         "variables": {
             "CLIENT_ID": "7524c8a317c1794c0b23895dce3a3314d6a24105",
