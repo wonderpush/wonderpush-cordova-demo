@@ -1,0 +1,8 @@
+android {
+  defaultConfig {
+    manifestPlaceholders = [
+      wonderpushDefaultActivity:  'com.wonderpush.cordova.demo.MainActivity',
+      wonderpushNotificationIcon: '@drawable/icon'
+    ]
+  }
+}
