@@ -17,23 +17,7 @@ cordova platform add android --save
 ```
 cordova plugin add --save wonderpush-cordova-sdk --variable CLIENT_ID='id' --variable CLIENT_SECRET='secret'
 ```
-For development 
-```
-cordova plugin add --save --link path-to-wonderpush-sdk-folder --variable CLIENT_ID='id' --variable CLIENT_SECRET='secret'
-```
-#### 4) Configure your platforms (TODO: eliminate this step)
-##### a) For android: Add gradle config to `platforms/android/build-extras.gradle`.
-```
-android {
-  defaultConfig {
-    manifestPlaceholders = [
-      wonderpushDefaultActivity:  'com.wonderpush.cordova.demo.MainActivity',
-      wonderpushNotificationIcon: '@drawable/icon'
-    ]
-  }
-}
-```
-#### 5) Launch your application
+#### 4) Launch your application
 ```
 cordova run --device
 ```
