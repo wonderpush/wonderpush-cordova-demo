@@ -18,12 +18,8 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-    </platform>
-    <engine name="ios" spec="4.5.4" />
-    <plugin name="cordova-plugin-wonderpush" spec="../wonderpush-cordova-sdk">
+    <engine name="ios" spec="^4.5.4" />
+    <plugin name="wonderpush-cordova-sdk" spec="../wonderpush-cordova-sdk">
         <variable name="CLIENT_ID" value="7524c8a317c1794c0b23895dce3a3314d6a24105" />
         <variable name="CLIENT_SECRET" value="b43a2d0fbdb54d24332b4d70736954eab5d24d29012b18ef6d214ff0f51e7901" />
     </plugin>
