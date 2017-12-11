@@ -20,6 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+	cordova.plugins.WonderPush.initialize();
     },
     // Bind Event Listeners
     //
