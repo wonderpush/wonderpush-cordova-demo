@@ -7,9 +7,6 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.wonderpush.demo"
-    },
     "cordova-plugin-wonderpush": {
       "PACKAGE_NAME": "com.wonderpush.demo"
     }
