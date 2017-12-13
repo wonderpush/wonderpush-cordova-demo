@@ -36,30 +36,31 @@ var app = {
     app.receivedEvent('deviceready');
 
     cordova.plugins.WonderPush.initialize();
+    cordova.plugins.WonderPush.setNotificationEnabled(true);
     document.getElementById('eventList').addEventListener('click', app.trackEventClick);
   },
+
   receivedEvent: function(id) {
     console.log('Received Event: ' + id);
   },
 
   trackEventClick: function(e) {
     var target = e.target;
-    var type = target.getAttribute('data-event');
-    if (!type) {
+    var type = target.dataset.event;
+      var custom = target.dataset.custom;
+      try {
+          custom = JSON.parse(custom);
+      } catch (ex) {
+          custom = null;
+      }
+
+    if (!type && !custom) {
       return;
+    } else if (!type) {
+        cordova.plugins.WonderPush.putInstallationCustomProperties(custom);
+    } else {
+        cordova.plugins.WonderPush.trackEvent(type, custom);
     }
-
-    // facultative custom fields
-    var custom = null;
-    /*
-    custom = {
-      string_salePeriod: "828",
-      bool_facebookLogin: false,
-      bool_googlePlusLogin: false
-    };
-    */
-
-    cordova.plugins.WonderPush.trackEvent(type, custom);
   }
 };
 
