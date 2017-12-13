@@ -32,5 +32,11 @@ HTML, BODY {
 #eventList .addToCart:hover   {background-color:#B3B2B2;}
 #eventList .purchase          {background-color:#333333;}
 #eventList .purchase:hover    {background-color:#555454;}
+#eventList .geofencing        {background-color:#009966;}
+#eventList .geofencing:hover  {background-color:#43957A;}
 #eventList .inactivity        {background-color:#DE7171;}
 #eventList .inactivity:hover  {background-color:#C26868;}
+#eventList .genderMale        {background-color:#DE7171;}
+#eventList .genderMale:hover  {background-color:#C26868;}
+#eventList .genderFemale      {background-color:#DE7171;}
+#eventList .genderFemale:hover{background-color:#C26868;}
