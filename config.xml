@@ -1,14 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.wonderpush.cordova.demo" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>WonderPushCordovaDemo</name>
+<widget id="com.wonderpush.demo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>WonderPush Demo</name>
     <description>
-        A sample Apache Cordova application using Wonderpush Cordova SDK .
+        A sample Apache Cordova application using Wonderpush Cordova SDK.
     </description>
     <author email="dev@wonderpush.com" href="https:///www.wonderpush.com">
-        Wonderpush Team
+        WonderPush Team
     </author>
     <content src="index.html" />
-    <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -16,7 +15,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <hook src="scripts/afterPlatformAdd.js" type="after_platform_add" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
@@ -24,4 +22,10 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <engine name="ios" spec="^4.5.4" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="wonderpush-cordova-sdk" spec="../wonderpush-cordova-sdk">
+        <variable name="CLIENT_ID" value="7524c8a317c1794c0b23895dce3a3314d6a24105" />
+        <variable name="CLIENT_SECRET" value="b43a2d0fbdb54d24332b4d70736954eab5d24d29012b18ef6d214ff0f51e7901" />
+    </plugin>
 </widget>
