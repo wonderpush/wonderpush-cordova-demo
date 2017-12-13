@@ -7,6 +7,7 @@
       "ios"
     ],
     "plugins": {
+      "cordova-plugin-whitelist": {},
       "wonderpush-cordova-sdk": {
         "CLIENT_ID": "7524c8a317c1794c0b23895dce3a3314d6a24105",
         "CLIENT_SECRET": "b43a2d0fbdb54d24332b4d70736954eab5d24d29012b18ef6d214ff0f51e7901"
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "cordova-ios": "^4.5.4",
+    "cordova-plugin-whitelist": "1",
     "wonderpush-cordova-sdk": "../wonderpush-cordova-sdk"
   }
 }

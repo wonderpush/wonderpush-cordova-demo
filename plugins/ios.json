@@ -7,6 +7,9 @@
     "files": {}
   },
   "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.wonderpush.demo"
+    },
     "wonderpush-cordova-sdk": {
       "CLIENT_ID": "7524c8a317c1794c0b23895dce3a3314d6a24105",
       "CLIENT_SECRET": "b43a2d0fbdb54d24332b4d70736954eab5d24d29012b18ef6d214ff0f51e7901",
