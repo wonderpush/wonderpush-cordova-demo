@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		3D8159001FE3C5AC00577B5B /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8158FF1FE3C5AC00577B5B /* NotificationService.m */; };
+		3D8159041FE3C5AC00577B5B /* NotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3D8158FC1FE3C5AC00577B5B /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D8159171FE4246700577B5B /* WonderPushExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EED539136BB4500BF0F431B /* WonderPushExtension.framework */; };
+		4CE510ABB8524B21B7FA42D2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75AE0EAD1554F84A563155C /* CoreMotion.framework */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		84F25CC5FBDB4E368FCE8DB2 /* PKAlertController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71B4A80ADBCB49AAB8C4ED65 /* PKAlertController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		850418E4307349C1A1A976A6 /* OpenUDID.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 54E07EE11D8243D1AED29842 /* OpenUDID.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8798BC9C277643A68C4EB3B4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2417E11E8FB74EE4808263B4 /* CoreLocation.framework */; };
+		897791ADC0D44505B52222E1 /* DTFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF1FC0824420487C8AA87239 /* DTFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A3A207DB7F7B40FC9E8BA6D7 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6A7B84A0C34B2FA5B66C0E /* CoreBluetooth.framework */; };
+		A85B7935F41E4332967A1BE1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA517460C334FFC9850BC29 /* CoreTelephony.framework */; };
+		C72A20E7B44E424BBBC627F6 /* WonderPushExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0EED539136BB4500BF0F431B /* WonderPushExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		C7F3EC6B44CD4750800A35E4 /* WonderPushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8451A4AE2A6E4F64AC8DF28C /* WonderPushPlugin.m */; };
+		D1143C187FBB47218BF76098 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C28340A26E014834A6E374D0 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D5D430F567A34D6980859066 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21AF3B1F45304A6F9193D407 /* SystemConfiguration.framework */; };
+		E59A3135919C4B398761FE02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1A2A0D0A654C93AC5C5864 /* UIKit.framework */; };
+		EF09328D997C4EE89B3C9C79 /* WonderPush.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9154C2901A934C6B93660698 /* WonderPush.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		FDDD02A6FD48436FA8C523D8 /* TCMobileProvision.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0243E10A8702497D9C39B768 /* TCMobileProvision.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		FE031022A0134DC89D9AC596 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC11B3287A94E5DBA807B44 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		3D8158F51FE3C4E600577B5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0C01EB21E3911D50056E6CB;
+			remoteInfo = Cordova;
+		};
+		3D8159021FE3C5AC00577B5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D8158FB1FE3C5AC00577B5B;
+			remoteInfo = NotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D8159081FE3C5AC00577B5B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3D8159041FE3C5AC00577B5B /* NotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541C9FC6A5C445D38B459541 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EF09328D997C4EE89B3C9C79 /* WonderPush.framework in Embed Frameworks */,
+				C72A20E7B44E424BBBC627F6 /* WonderPushExtension.framework in Embed Frameworks */,
+				D1143C187FBB47218BF76098 /* AFNetworking.framework in Embed Frameworks */,
+				850418E4307349C1A1A976A6 /* OpenUDID.framework in Embed Frameworks */,
+				84F25CC5FBDB4E368FCE8DB2 /* PKAlertController.framework in Embed Frameworks */,
+				FDDD02A6FD48436FA8C523D8 /* TCMobileProvision.framework in Embed Frameworks */,
+				897791ADC0D44505B52222E1 /* DTFoundation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "WonderPush Demo/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		0243E10A8702497D9C39B768 /* TCMobileProvision.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TCMobileProvision.framework; path = "WonderPush Demo/Plugins/wonderpush-cordova-sdk/TCMobileProvision.framework"; sourceTree = "<group>"; };
+		0C1A2A0D0A654C93AC5C5864 /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EED539136BB4500BF0F431B /* WonderPushExtension.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = WonderPushExtension.framework; path = "WonderPush Demo/Plugins/wonderpush-cordova-sdk/WonderPushExtension.framework"; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* WonderPush Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WonderPush Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AF3B1F45304A6F9193D407 /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2417E11E8FB74EE4808263B4 /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E6A7B84A0C34B2FA5B66C0E /* CoreBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
+		32CA4F630368D1EE00C91783 /* WonderPush Demo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WonderPush Demo-Prefix.pch"; sourceTree = "<group>"; };
+		3D8158F71FE3C4E600577B5B /* WonderPush Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "WonderPush Demo.entitlements"; path = "WonderPush Demo/WonderPush Demo.entitlements"; sourceTree = "<group>"; };
+		3D8158FC1FE3C5AC00577B5B /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8158FE1FE3C5AC00577B5B /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		3D8158FF1FE3C5AC00577B5B /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		3D8159011FE3C5AC00577B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E07EE11D8243D1AED29842 /* OpenUDID.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = OpenUDID.framework; path = "WonderPush Demo/Plugins/wonderpush-cordova-sdk/OpenUDID.framework"; sourceTree = "<group>"; };
+		5CA517460C334FFC9850BC29 /* CoreTelephony.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = "WonderPush Demo/CDVLaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		71B4A80ADBCB49AAB8C4ED65 /* PKAlertController.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = PKAlertController.framework; path = "WonderPush Demo/Plugins/wonderpush-cordova-sdk/PKAlertController.framework"; sourceTree = "<group>"; };
+		8451A4AE2A6E4F64AC8DF28C /* WonderPushPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = WonderPushPlugin.m; path = "../../../../../wonderpush-cordova-sdk/src/ios/WonderPushPlugin.m"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* WonderPush Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "WonderPush Demo-Info.plist"; path = "WonderPush Demo/WonderPush Demo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		9154C2901A934C6B93660698 /* WonderPush.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = WonderPush.framework; path = "WonderPush Demo/Plugins/wonderpush-cordova-sdk/WonderPush.framework"; sourceTree = "<group>"; };
+		964D5E20D6B34A2EBF333912 /* WonderPushPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WonderPushPlugin.h; path = "../../../../../wonderpush-cordova-sdk/src/ios/WonderPushPlugin.h"; sourceTree = "<group>"; };
+		B75AE0EAD1554F84A563155C /* CoreMotion.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		BF1FC0824420487C8AA87239 /* DTFoundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = DTFoundation.framework; path = "WonderPush Demo/Plugins/wonderpush-cordova-sdk/DTFoundation.framework"; sourceTree = "<group>"; };
+		C28340A26E014834A6E374D0 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "WonderPush Demo/Plugins/wonderpush-cordova-sdk/AFNetworking.framework"; sourceTree = "<group>"; };
+		DBC11B3287A94E5DBA807B44 /* AVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "WonderPush Demo/config.xml"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				D5D430F567A34D6980859066 /* SystemConfiguration.framework in Frameworks */,
+				E59A3135919C4B398761FE02 /* UIKit.framework in Frameworks */,
+				A85B7935F41E4332967A1BE1 /* CoreTelephony.framework in Frameworks */,
+				8798BC9C277643A68C4EB3B4 /* CoreLocation.framework in Frameworks */,
+				A3A207DB7F7B40FC9E8BA6D7 /* CoreBluetooth.framework in Frameworks */,
+				FE031022A0134DC89D9AC596 /* AVFoundation.framework in Frameworks */,
+				4CE510ABB8524B21B7FA42D2 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8158F91FE3C5AC00577B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8159171FE4246700577B5B /* WonderPushExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = "WonderPush Demo/Classes";
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* WonderPush Demo.app */,
+				3D8158FC1FE3C5AC00577B5B /* NotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				3D8158F71FE3C4E600577B5B /* WonderPush Demo.entitlements */,
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				3D8158FD1FE3C5AC00577B5B /* NotificationServiceExtension */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* WonderPush Demo-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
+			);
+			name = "Other Sources";
+			path = "WonderPush Demo";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0207DA571B56EA530066E2B4 /* Images.xcassets */,
+				3047A50E1AB8057F00498E2A /* config */,
+				8D1107310486CEB800E47090 /* WonderPush Demo-Info.plist */,
+				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+			);
+			name = Resources;
+			path = "WonderPush Demo/Resources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21AF3B1F45304A6F9193D407 /* SystemConfiguration.framework */,
+				0C1A2A0D0A654C93AC5C5864 /* UIKit.framework */,
+				5CA517460C334FFC9850BC29 /* CoreTelephony.framework */,
+				2417E11E8FB74EE4808263B4 /* CoreLocation.framework */,
+				2E6A7B84A0C34B2FA5B66C0E /* CoreBluetooth.framework */,
+				DBC11B3287A94E5DBA807B44 /* AVFoundation.framework */,
+				B75AE0EAD1554F84A563155C /* CoreMotion.framework */,
+				9154C2901A934C6B93660698 /* WonderPush.framework */,
+				0EED539136BB4500BF0F431B /* WonderPushExtension.framework */,
+				C28340A26E014834A6E374D0 /* AFNetworking.framework */,
+				54E07EE11D8243D1AED29842 /* OpenUDID.framework */,
+				71B4A80ADBCB49AAB8C4ED65 /* PKAlertController.framework */,
+				0243E10A8702497D9C39B768 /* TCMobileProvision.framework */,
+				BF1FC0824420487C8AA87239 /* DTFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+				3D8158F61FE3C4E600577B5B /* Cordova.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3047A50E1AB8057F00498E2A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				3047A50F1AB8059700498E2A /* build-debug.xcconfig */,
+				3047A5101AB8059700498E2A /* build-release.xcconfig */,
+				3047A5111AB8059700498E2A /* build.xcconfig */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				8451A4AE2A6E4F64AC8DF28C /* WonderPushPlugin.m */,
+				964D5E20D6B34A2EBF333912 /* WonderPushPlugin.h */,
+			);
+			name = Plugins;
+			path = "WonderPush Demo/Plugins";
+			sourceTree = SOURCE_ROOT;
+		};
+		3D8158FD1FE3C5AC00577B5B /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3D8158FE1FE3C5AC00577B5B /* NotificationService.h */,
+				3D8158FF1FE3C5AC00577B5B /* NotificationService.m */,
+				3D8159011FE3C5AC00577B5B /* Info.plist */,
+			);
+			path = NotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* WonderPush Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WonderPush Demo" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				541C9FC6A5C445D38B459541 /* Embed Frameworks */,
+				3D8159081FE3C5AC00577B5B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+				3D8159031FE3C5AC00577B5B /* PBXTargetDependency */,
+			);
+			name = "WonderPush Demo";
+			productName = "WonderPush Demo";
+			productReference = 1D6058910D05DD3D006BFB54 /* WonderPush Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D8158FB1FE3C5AC00577B5B /* NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8159051FE3C5AC00577B5B /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
+			buildPhases = (
+				3D8158F81FE3C5AC00577B5B /* Sources */,
+				3D8158F91FE3C5AC00577B5B /* Frameworks */,
+				3D8158FA1FE3C5AC00577B5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationServiceExtension;
+			productName = NotificationServiceExtension;
+			productReference = 3D8158FC1FE3C5AC00577B5B /* NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = N9ZG2P9A72;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					3D8158FB1FE3C5AC00577B5B = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = N9ZG2P9A72;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WonderPush Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* WonderPush Demo */,
+				3D8158FB1FE3C5AC00577B5B /* NotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D8158F61FE3C4E600577B5B /* Cordova.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cordova.framework;
+			remoteRef = 3D8158F51FE3C4E600577B5B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
+				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8158FA1FE3C5AC00577B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				C7F3EC6B44CD4750800A35E4 /* WonderPushPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8158F81FE3C5AC00577B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8159001FE3C5AC00577B5B /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+		3D8159031FE3C5AC00577B5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D8158FB1FE3C5AC00577B5B /* NotificationServiceExtension */;
+			targetProxy = 3D8159021FE3C5AC00577B5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "WonderPush Demo/WonderPush Demo.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WonderPush Demo/WonderPush Demo-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "WonderPush Demo/WonderPush Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = "WonderPush Demo";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "WonderPush Demo/WonderPush Demo.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WonderPush Demo/WonderPush Demo-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "WonderPush Demo/WonderPush Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = "WonderPush Demo";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D8159061FE3C5AC00577B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N9ZG2P9A72;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonderpush.demo.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D8159071FE3C5AC00577B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N9ZG2P9A72;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"WonderPush Demo/Plugins/wonderpush-cordova-sdk\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonderpush.demo.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WonderPush Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8159051FE3C5AC00577B5B /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8159061FE3C5AC00577B5B /* Debug */,
+				3D8159071FE3C5AC00577B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WonderPush Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

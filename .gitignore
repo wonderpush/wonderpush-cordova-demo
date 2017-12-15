@@ -1,3 +1,11 @@
-/platforms/*/
-/plugins/*/
 /node_modules/
+/plugins/*/
+
+.DS_Store
+xcuserdata/
+*.xccheckout
+*.xcarchive
+/platforms/ios/build/
+/platforms/ios/www/
+/platforms/ios/cordova/
+/platforms/ios/CordovaLib/
