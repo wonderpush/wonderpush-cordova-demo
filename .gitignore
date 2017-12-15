@@ -9,3 +9,12 @@ xcuserdata/
 /platforms/ios/www/
 /platforms/ios/cordova/
 /platforms/ios/CordovaLib/
+
+/platforms/android/assets/www
+/platforms/android/bin
+/platforms/android/gen
+/platforms/android/local.properties
+/platforms/android/ant-build
+/platforms/android/ant-gen
+/platforms/android/cordova/
+/platforms/android/CordovaLib/
