@@ -39,6 +39,19 @@
             {
               "xml": "<meta-data android:name=\"wonderpushInitializerClass\" android:value=\"com.wonderpush.sdk.cordova.WonderPushInitializerImpl\" tools:replace=\"android:value\" xmlns:tools=\"http://schemas.android.com/tools\" />",
               "count": 1
+            },
+            {
+              "xml": "<application android:name=\"com.wonderpush.sdk.cordova.WonderPushApplication\" />",
+              "count": 1,
+              "mode": "merge",
+              "plugin": "wonderpush-cordova-sdk",
+              "oldAttrib": {
+                "android:hardwareAccelerated": "true",
+                "android:icon": "@mipmap/icon",
+                "android:label": "@string/app_name",
+                "android:name": "com.wonderpush.sdk.cordova.WonderPushApplication",
+                "android:supportsRtl": "true"
+              }
             }
           ]
         }

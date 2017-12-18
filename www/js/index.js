@@ -35,7 +35,6 @@ var app = {
   onDeviceReady: function() {
     app.receivedEvent('deviceready');
 
-    cordova.plugins.WonderPush.initialize();
     cordova.plugins.WonderPush.setNotificationEnabled(true);
     document.getElementById('eventList').addEventListener('click', app.trackEventClick);
   },
