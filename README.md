@@ -1,6 +1,11 @@
-# wonderpush-cordova-demo
+# WonderPush Cordova demo application
 
-Cordova demo application for WonderPush − Notifications &amp; Analytics
+[WonderPush](https://www.wonderpush.com) is an advanced push notification service for iOS and Android applications and Websites. High volume and fast delivery. [Start for free](https://dashboard.wonderpush.com/account/signup).
+
+This a Cordova demo application.
+
+Quick links:
+* [**WonderPush Cordova / PhoneGap SDK**](https://github.com/wonderpush/wonderpush-cordova-sdk)
 
 ## Getting started
 
