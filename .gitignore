@@ -18,3 +18,4 @@ xcuserdata/
 /platforms/android/ant-gen
 /platforms/android/cordova/
 /platforms/android/CordovaLib/
+/platforms/android/.gradle/
