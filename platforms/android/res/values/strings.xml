@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">WonderPush Demo</string>
-    <string name="launcher_name">@string/app_name</string>
-    <string name="activity_name">@string/launcher_name</string>
-    <string name="WP_CLIENT_ID">7524c8a317c1794c0b23895dce3a3314d6a24105</string>
-    <string name="WP_CLIENT_SECRET">b43a2d0fbdb54d24332b4d70736954eab5d24d29012b18ef6d214ff0f51e7901</string>
-</resources>

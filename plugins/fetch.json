@@ -10,11 +10,7 @@
   "wonderpush-cordova-sdk": {
     "source": {
       "type": "local",
-      "path": "../wonderpush-cordova-sdk"
-    },
-    "source (for production)": {
-      "type": "registry",
-      "id": "wonderpush-cordova-sdk"
+      "path": "/data/notiflex/gits/wonderpush-cordova-demo/node_modules/wonderpush-cordova-sdk"
     },
     "is_top_level": true,
     "variables": {

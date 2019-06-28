@@ -1,1 +1,0 @@
-../../../../../../../../wonderpush-cordova-sdk/src/android/WonderPushPlugin.java
