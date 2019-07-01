@@ -35,12 +35,24 @@ var app = {
   onDeviceReady: function() {
     app.receivedEvent('deviceready');
 
-    cordova.plugins.WonderPush.setNotificationEnabled(true);
+    WonderPush.isSubscribedToNotifications(function(subscribed) {
+      document.getElementById('optinSwitch').checked = subscribed;
+      document.getElementById('optinSwitch').disabled = false;
+    });
+    document.getElementById('optinSwitch').addEventListener('click', app.toggleSubscribe);
     document.getElementById('eventList').addEventListener('click', app.trackEventClick);
   },
 
   receivedEvent: function(id) {
     console.log('Received Event: ' + id);
+  },
+
+  toggleSubscribe: function(e) {
+    if (e.target.checked) {
+      WonderPush.subscribeToNotifications();
+    } else {
+      WonderPush.unsubscribeFromNotifications();
+    }
   },
 
   trackEventClick: function(e) {
@@ -60,7 +72,8 @@ var app = {
     } else {
         cordova.plugins.WonderPush.trackEvent(type, custom);
     }
-  }
+  },
+
 };
 
 app.initialize();

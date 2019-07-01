@@ -11,6 +11,12 @@ HTML, BODY {
   font-size:16px;
 }
 
+#optinSwitchDiv {
+  padding: 1em;
+  background-color: lightgray;
+  text-align: center;
+}
+
 #eventList DIV {
   line-height:3em;
   height:3em;
