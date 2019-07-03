@@ -18,7 +18,22 @@
  */
 var app = {
   // Application Constructor
+  // Note that JS console messages are logged before the deviceready event is fired on iOS
   initialize: function() {
+    window.onerror = function (msg, url, lineNo, columnNo, error) {
+      var string = msg.toLowerCase();
+      var substring = "script error";
+      var message = [
+        'Message: ' + msg,
+        'URL: ' + url,
+        'Line: ' + lineNo,
+        'Column: ' + columnNo,
+        'Error object: ' + JSON.stringify(error)
+      ].join(' - ');
+      console.error(message);
+      return false;
+    };
+
     this.bindEvents();
   },
   // Bind Event Listeners
