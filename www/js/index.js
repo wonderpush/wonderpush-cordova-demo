@@ -56,10 +56,18 @@ var app = {
     });
     document.getElementById('optinSwitch').addEventListener('click', app.toggleSubscribe);
     document.getElementById('eventList').addEventListener('click', app.trackEventClick);
+    document.getElementById('properties').addEventListener('click', app.refreshState);
+    app.refreshState();
   },
 
   receivedEvent: function(id) {
     console.log('Received Event: ' + id);
+  },
+
+  refreshState: function() {
+    WonderPush.getProperties(function(properties) {
+      document.getElementById('properties').innerHTML = JSON.stringify(properties, null, 2);
+    });
   },
 
   toggleSubscribe: function(e) {
@@ -83,9 +91,9 @@ var app = {
     if (!type && !custom) {
       return;
     } else if (!type) {
-        cordova.plugins.WonderPush.putInstallationCustomProperties(custom);
+        WonderPush.putProperties(custom, app.refreshState);
     } else {
-        cordova.plugins.WonderPush.trackEvent(type, custom);
+        WonderPush.trackEvent(type, custom);
     }
   },
 

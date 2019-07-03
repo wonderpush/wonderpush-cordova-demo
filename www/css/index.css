@@ -46,3 +46,11 @@ HTML, BODY {
 #eventList .genderMale:hover  {background-color:#C26868;}
 #eventList .genderFemale      {background-color:#DE7171;}
 #eventList .genderFemale:hover{background-color:#C26868;}
+
+#state {
+  text-align: left;
+}
+#tags, #properties {
+  display: block;
+  padding: 1em;
+}
