@@ -56,6 +56,7 @@ var app = {
     });
     document.getElementById('optinSwitch').addEventListener('click', app.toggleSubscribe);
     document.getElementById('eventList').addEventListener('click', app.trackEventClick);
+    document.getElementById('tags').addEventListener('click', app.refreshState);
     document.getElementById('properties').addEventListener('click', app.refreshState);
     app.refreshState();
   },
@@ -65,6 +66,9 @@ var app = {
   },
 
   refreshState: function() {
+    WonderPush.getTags(function(tags) {
+      document.getElementById('tags').innerHTML = tags.join('\n');
+    });
     WonderPush.getProperties(function(properties) {
       document.getElementById('properties').innerHTML = JSON.stringify(properties, null, 2);
     });
