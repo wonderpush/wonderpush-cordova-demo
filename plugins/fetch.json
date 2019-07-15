@@ -1,0 +1,14 @@
+{
+  "wonderpush-cordova-sdk": {
+    "source": {
+      "type": "registry",
+      "id": "wonderpush-cordova-sdk"
+    },
+    "is_top_level": true,
+    "variables": {
+      "CLIENT_ID": "7524c8a317c1794c0b23895dce3a3314d6a24105",
+      "CLIENT_SECRET": "b43a2d0fbdb54d24332b4d70736954eab5d24d29012b18ef6d214ff0f51e7901",
+      "LOGGING": "true"
+    }
+  }
+}

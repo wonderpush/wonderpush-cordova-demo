@@ -49,4 +49,13 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
+    <feature name="WonderPushPlugin">
+        <param name="ios-package" value="WonderPushPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <preference name="WONDERPUSH_CLIENT_ID" value="7524c8a317c1794c0b23895dce3a3314d6a24105" />
+    <preference name="WONDERPUSH_CLIENT_SECRET" value="b43a2d0fbdb54d24332b4d70736954eab5d24d29012b18ef6d214ff0f51e7901" />
+    <preference name="WONDERPUSH_LOGGING" value="true" />
+    <preference name="WONDERPUSH_AUTO_INIT" value="true" />
+    <preference name="WONDERPUSH_REQUIRES_USER_CONSENT" value="false" />
 </widget>
