@@ -1,5 +1,15 @@
 {
   "name": "com.wonderpush.demo",
   "version": "1.0.0",
- "displayName": "WonderPush Demo"
+  "displayName": "WonderPush Demo",
+  "dependencies": {
+    "cordova-android": "^8.0.0",
+    "cordova-ios": "^5.0.1"
+  },
+  "cordova": {
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
 }
