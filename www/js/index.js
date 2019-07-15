@@ -42,6 +42,8 @@ var app = {
   // 'load', 'deviceready', 'offline', and 'online'.
   bindEvents: function() {
     document.addEventListener('deviceready', this.onDeviceReady, false);
+      document.addEventListener('wonderpush.notificationOpen', this.onNotificationOpen, false);
+      document.addEventListener('wonderpush.registeredCallback', this.onRegisteredCallback, false);
   },
   // deviceready Event Handler
   //
@@ -50,6 +52,12 @@ var app = {
   onDeviceReady: function() {
     app.receivedEvent('deviceready');
 
+      WonderPush.setDelegate({
+                             urlForDeepLink: function(url, cb) {
+                                console.warn('[WONDERPUSH CORDOVA APP] urlForDeepLink(', url, ')');
+                                cb(url);
+                             },
+      });
     WonderPush.isSubscribedToNotifications(function(subscribed) {
       document.getElementById('optinSwitch').checked = subscribed;
       document.getElementById('optinSwitch').disabled = false;
@@ -61,6 +69,14 @@ var app = {
     app.refreshState();
   },
 
+onNotificationOpen: function(event) {
+    console.log('Received notificationOpen', event);
+},
+    
+onRegisteredCallback: function(event) {
+    console.log('Received registeredCallback', event);
+},
+    
   receivedEvent: function(id) {
     console.log('Received Event: ' + id);
   },
