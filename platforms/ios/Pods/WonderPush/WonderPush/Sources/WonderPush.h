@@ -54,14 +54,34 @@ FOUNDATION_EXPORT const unsigned char WonderPushVersionString[];
 #define WP_NOTIFICATION_USER_LOGED_IN_ACCESS_TOKEN_KEY @"_wonderpushAccessToken"
 
 /**
+ Name of the notification that is sent using `NSNotificationCenter` when the a button of type `method` is called.
+ */
+#define WP_NOTIFICATION_REGISTERED_CALLBACK @"_wonderpushRegisteredCallback"
+
+/**
+ Key of the method used when a button of type `method` is called.
+ */
+#define WP_REGISTERED_CALLBACK_METHOD_KEY @"_wonderpushCallbackMethod"
+
+/**
  Key of the parameter used when a button of type `method` is called.
  */
 #define WP_REGISTERED_CALLBACK_PARAMETER_KEY @"_wonderpushCallbackParameter"
 
 /**
+ Name of the notification that is sent using `NSNotificationCenter` when a push notification is received.
+ */
+#define WP_NOTIFICATION_RECEIVED @"_wonderpushNotificationReceived"
+
+/**
  Name of the notification that is sent using `NSNotificationCenter` when a push notification with a "delegate to application code" deep link.
  */
 #define WP_NOTIFICATION_OPENED_BROADCAST @"_wonderpushNotificationOpenedBroadcast"
+
+/**
+ Name of the notification that is sent using `NSNotificationCenter` when a push notification is being opened.
+ */
+#define WP_NOTIFICATION_OPENED @"_wonderpushNotificationOpened"
 
 /**
  The `WonderPushDelegate` protocol lets you customize various aspects of the WonderPush behavior at runtime.
@@ -80,7 +100,7 @@ FOUNDATION_EXPORT const unsigned char WonderPushVersionString[];
 /**
  Lets you overwrite URLs that WonderPush will open using `UIApplication:openURL:`.
  This version let's you do some asynchronous processing before returning.
- @param URL The URL that WonderPush is about to open.
+ @param url The URL that WonderPush is about to open.
  @param completionHandler The callback to call with the new URL to open.
  @return A URL to open, or nil to avoid opening anything. Just return the value of the URL parameter to use the default WonderPush behavior.
  */
