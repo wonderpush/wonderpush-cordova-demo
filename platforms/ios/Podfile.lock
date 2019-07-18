@@ -1,0 +1,24 @@
+PODS:
+  - WonderPush (3.1.2):
+    - WonderPush/Core (= 3.1.2)
+  - WonderPush/Core (3.1.2)
+  - WonderPushExtension (3.1.2):
+    - WonderPushExtension/Extension (= 3.1.2)
+  - WonderPushExtension/Extension (3.1.2)
+
+DEPENDENCIES:
+  - WonderPush (= 3.1.2)
+  - WonderPushExtension (= 3.1.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WonderPush
+    - WonderPushExtension
+
+SPEC CHECKSUMS:
+  WonderPush: 85de5d3b229eb8b536ac0422aec7059a57fa4f5a
+  WonderPushExtension: 752ee4bf9d35f2e8b60b863bdb15b636489dcb78
+
+PODFILE CHECKSUM: 4ef102044c0e5033b7809489ab84345426a30873
+
+COCOAPODS: 1.6.1

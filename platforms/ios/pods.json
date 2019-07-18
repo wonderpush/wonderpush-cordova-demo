@@ -1,5 +1,16 @@
 {
-    "declarations": {},
+    "declarations": {
+        "use_frameworks!": {
+            "declaration": "use_frameworks!",
+            "count": 1
+        }
+    },
     "sources": {},
-    "libraries": {}
+    "libraries": {
+        "WonderPush": {
+            "name": "WonderPush",
+            "spec": "3.1.2",
+            "count": 1
+        }
+    }
 }
