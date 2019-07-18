@@ -1,10 +1,16 @@
 {
-  "ios": {
-    "debug": {
-      "developmentTeam": "N9ZG2P9A72"
-    },
-    "release": {
-      "developmentTeam": "N9ZG2P9A72"
+    "ios": {
+        "debug": {
+            "codeSignIdentity": "iPhone Developer",
+            "developmentTeam": "N9ZG2P9A72",
+            "packageType": "development",
+            "automaticProvisioning": true
+        },
+        "release": {
+            "codeSignIdentity": "iPhone Developer",
+            "developmentTeam": "N9ZG2P9A72",
+            "packageType": "app-store",
+            "automaticProvisioning": true
+        }
     }
-  }
 }
