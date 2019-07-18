@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7290503a-66d8-47cf-9e59-c85426d6901d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/plugins/wonderpush-cordova-sdk/www/WonderPush.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/plugins/wonderpush-cordova-sdk/www/WonderPush.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/com/wonderpush/sdk/cordova/JSONUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/java/com/wonderpush/sdk/cordova/JSONUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/com/wonderpush/sdk/cordova/WonderPushPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/java/com/wonderpush/sdk/cordova/WonderPushPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/platform_www/plugins/wonderpush-cordova-sdk/www/WonderPush.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/platform_www/plugins/wonderpush-cordova-sdk/www/WonderPush.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/wonderpush-cordova-sdk/demo-build-extras.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/wonderpush-cordova-sdk/demo-build-extras.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Podfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Manifest.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPush Demo/Pods-WonderPush Demo-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPush Demo/Pods-WonderPush Demo-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPush Demo/Pods-WonderPush Demo-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPush Demo/Pods-WonderPush Demo-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPush Demo/Pods-WonderPush Demo-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPush Demo/Pods-WonderPush Demo-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPush Demo/Pods-WonderPush Demo.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPush Demo/Pods-WonderPush Demo.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPush Demo/Pods-WonderPush Demo.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPushNotificationServiceExtension/Pods-WonderPushNotificationServiceExtension-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPushNotificationServiceExtension/Pods-WonderPushNotificationServiceExtension-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPushNotificationServiceExtension/Pods-WonderPushNotificationServiceExtension-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPushNotificationServiceExtension/Pods-WonderPushNotificationServiceExtension-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPushNotificationServiceExtension/Pods-WonderPushNotificationServiceExtension-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPushNotificationServiceExtension/Pods-WonderPushNotificationServiceExtension.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPushNotificationServiceExtension/Pods-WonderPushNotificationServiceExtension.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/Pods-WonderPushNotificationServiceExtension/Pods-WonderPushNotificationServiceExtension.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/WonderPush/ResourceBundle-WonderPush-WonderPush-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/WonderPush/WonderPush-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/WonderPush/WonderPush-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/WonderPush/WonderPush-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/WonderPush/WonderPush-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/WonderPush/WonderPush.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/WonderPush/WonderPush.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/WonderPushExtension/WonderPushExtension-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/WonderPushExtension/WonderPushExtension-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/WonderPushExtension/WonderPushExtension-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/WonderPushExtension/WonderPushExtension-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/WonderPushExtension/WonderPushExtension.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/Target Support Files/WonderPushExtension/WonderPushExtension.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/WonderPush.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/ar.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/ca.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/cs.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/da.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/de.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/el.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/en.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/es.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/fi.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/fr.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/he.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/hi.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/hr.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/hu.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/id.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/it.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/ja.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/ko.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/ms.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/nb.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/nl.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/pl.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/pt-PT.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/pt.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/ro.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/ru.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/sk.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/sv.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/th.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/tr.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/uk.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/vi.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/zh-Hans.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Resources/zh-Hant.lproj/WonderPushLocalizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPAPIClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPAPIClient.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPAppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPAppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPConfiguration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPConfiguration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPDataManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPDataManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPDialogButtonHandler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPDialogButtonHandler.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPHTMLInAppController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPHTMLInAppController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPInstallationCoreProperties.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPInstallationCoreProperties.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPJsonSync.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPJsonSync.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPJsonSyncInstallation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPJsonSyncInstallation.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPJsonUtil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPJsonUtil.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPLog.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPLog.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPMobileProvision.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPMobileProvision.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPNetworkReachabilityManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPNetworkReachabilityManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPNotificationCenterDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPNotificationCenterDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPRequestSerializer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPRequestSerializer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPRequestVault.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPRequestVault.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPUtil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WPUtil.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WonderPush.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WonderPush.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WonderPushAPI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WonderPushConcreteAPI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WonderPushConcreteAPI.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WonderPushLogErrorAPI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WonderPushLogErrorAPI.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPush/WonderPush/Sources/WonderPush_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPushExtension/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPushExtension/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPushExtension/WonderPush/Sources/WPLog.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPushExtension/WonderPush/Sources/WPLog.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPushExtension/WonderPushExtension/Sources/NotificationServiceExtension.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPushExtension/WonderPushExtension/Sources/NotificationServiceExtension.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPushExtension/WonderPushExtension/Sources/WPNotificationServiceExtension.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPushExtension/WonderPushExtension/Sources/WPNotificationServiceExtension.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Pods/WonderPushExtension/WonderPushExtension/Sources/WonderPushExtension.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo.xcworkspace/xcshareddata/xcschemes/WonderPush Demo.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/CDVLaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Classes/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Classes/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Classes/MainViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Classes/MainViewController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Classes/MainViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Entitlements-Debug.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Entitlements-Release.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-24@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-27.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-44@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-50@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-72@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-86@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon-98@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/AppIcon.appiconset/icon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchImage.launchimage/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchImage.launchimage/Default-2436h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchImage.launchimage/Default-568h@2x~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchImage.launchimage/Default-667h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchImage.launchimage/Default-736h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchImage.launchimage/Default-Landscape-2436h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchImage.launchimage/Default-Landscape-736h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchImage.launchimage/Default-Landscape@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchImage.launchimage/Default-Landscape~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchImage.launchimage/Default-Portrait@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchImage.launchimage/Default-Portrait~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchImage.launchimage/Default@2x~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchImage.launchimage/Default~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Images.xcassets/LaunchStoryboard.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Plugins/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Plugins/wonderpush-cordova-sdk/WonderPushPlugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Plugins/wonderpush-cordova-sdk/WonderPushPlugin.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/Scripts/copy-www-build-step.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/WonderPush Demo-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/WonderPush Demo-Prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPush Demo/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPushNotificationServiceExtension/NotificationService.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPushNotificationServiceExtension/NotificationService.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/WonderPushNotificationServiceExtension/WonderPushNotificationServiceExtension-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/exportOptions.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/frameworks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/ios.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/exec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/platform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/plugin/ios/console.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/plugin/ios/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova_plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/plugins/wonderpush-cordova-sdk/www/WonderPush.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/pods-debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/pods-release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/pods.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/fetch.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/fetch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/ios.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/wonderpush-cordova-sdk/www/WonderPush.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/wonderpush-cordova-sdk/www/WonderPush.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/index.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/node_modules/" />
+    <ignored path="$PROJECT_DIR$/plugins/wonderpush-cordova-sdk/node_modules/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/www/js/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/wonderpush-cordova-demo.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="180" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wonderpush-cordova-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wonderpush-cordova-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wonderpush-cordova-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wonderpush-cordova-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wonderpush-cordova-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wonderpush-cordova-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7290503a-66d8-47cf-9e59-c85426d6901d" name="Default Changelist" comment="" />
+      <created>1563270581639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563270581639</updated>
+      <workItem from="1563270583088" duration="2157000" />
+      <workItem from="1563454836314" duration="661000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2818000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="180" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13791268" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="SBT Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="make" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
